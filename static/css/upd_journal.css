@@ -1,0 +1,40 @@
+html{background-color: #EFFAF6;}
+
+.nav_bar{background-color: white;
+			padding: 20px;
+			}
+
+.nav_bar a{text-decoration: none;
+			color: #52796F;
+			margin-left: 20px;
+			margin-right: 20px;
+			}
+
+#logo {font-family: "Brush Script MT";
+      font-size: 30px;
+      padding-right: 550px}
+			
+h1 {
+	color: #52796F;
+	font-size: 50px;
+	margin: 50px;
+}
+
+img {
+	max-width:30%;
+	max-height:27%;
+	float: left;
+	margin-left: 45px;
+}
+
+p {
+	margin-left: 700px;
+	margin-top: 150px;
+	font-size: 35px;
+	color: #5BC0BE;
+	font-weight: bold;
+}
+
+input {
+	margin-left: 400px;
+}

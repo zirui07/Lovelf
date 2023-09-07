@@ -1,0 +1,56 @@
+html{background-color: #EFFAF6;}
+
+.nav_bar{background-color: white;
+			padding: 20px;
+			}
+
+.nav_bar a{text-decoration: none;
+			color: #52796F;
+			margin-left: 20px;
+			margin-right: 20px;
+			}
+
+#logo {font-family: "Brush Script MT";
+      font-size: 30px;
+      padding-right: 550px}
+
+h1 {color: #52796F;
+   font-size: 50px;
+   margin:50px;}
+
+#details {float: left;}
+
+img {
+  float: right;
+  margin-right: 100px;
+}
+
+table, h2, h1{
+  margin-left: 40px;
+}
+
+th,td{padding-right: 20px;}
+
+h2{
+  color: #52796F;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+th {font-size: 23px;}
+
+input{
+  background-color: #FFCACA;
+  border: 1px solid #52796F;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#link_btn {color: blue;
+  text-decoration: underline;}
+
+.sos {
+  border-right: 2px solid #52796F;
+}
+
+.sos2 {margin-left: 10px;}

@@ -1,0 +1,101 @@
+html{background-color: #EFFAF6;}
+
+.nav_bar{background-color: white;
+			padding: 20px;
+			}
+
+.nav_bar a{text-decoration: none;
+			color: #52796F;
+			margin-left: 20px;
+			margin-right: 20px;
+			}
+
+#logo {font-family: "Brush Script MT";
+      font-size: 30px;
+      padding-right: 550px}
+			
+h1 {
+	color: #52796F;
+	font-size: 50px;
+	margin: 50px;
+}
+
+img {
+	max-width:30%;
+	max-height:27%;
+	float: left;
+	margin-left: 45px;
+}
+
+form {
+	background-color: #C1D4D3;
+	float: right;
+	border-radius: 30px;
+	padding: 30px;
+	width: 650px;
+	height:300px;
+	margin-right: 80px;
+  margin-bottom: 100px;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px
+}
+
+.details {
+	padding-bottom: 60px;
+}
+
+
+#journal {float: right;}
+
+#contentname {font-size: 30px;}
+
+#post_btn {
+	background-color: #B6EDEA;
+	float: right;
+	margin-top: 10px;
+	border: 1px solid black;
+	border-radius: 7px;
+}
+
+.pastjournals {
+  background-color: #C1D4D3;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+#title_ {display: inline;
+  font-size: 25px;
+}
+
+#dd {
+  font-size: 15px;
+}
+
+#content_ {
+  font-size: 20px;
+  border-bottom: 2px solid #52796F;
+}
+
+.mood_img{height: 50px;
+         width: 50px;
+         margin-left: 0px;
+         margin-right: 10px;}
+
+#more_btn {
+  background-color: #B6EDEA;
+	margin-top: 10px;
+	border-radius: 7px;
+  margin-left: 590px;
+  padding: 10px;
+}
+
+#upp {
+  margin-left: 1200px;
+  height: 50px;
+  width: 50px;
+}
+

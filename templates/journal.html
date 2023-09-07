@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My TreeHole</title>
+		<link rel='stylesheet' href='../static/css/journal.css'>
+	</head>
+
+	<body>
+		<div class='nav_bar' id="start">
+			<a href='/' id="logo">Lovelf</a>
+			<a href='/'>Home</a>
+			<a href='/treehole/'>TreeHole</a>
+			<a href='/self-care practices/'>Self-care practices</a>
+			<a href='/helpline/'>Helpline</a>
+		</div>	
+		
+		<h1>My TreeHole</h1>
+		
+		
+		<img src="../static/images/treehole.png">
+		<form action='/update/' class="grid-container">
+			<div class="grid-child 1">
+				<div class="details">
+					<label for="title">Title: </label>
+					<input type="text" id="title" name="title" placeholder="Give ur journal a title!" >
+				</div>
+				
+				<div class="details">
+					<label for="date">Date: </label>
+					<input type="date" id="date" name="date">
+				</div>
+				
+				<div class="details">
+					<label for="day">Day: </label>
+					<select name="day" id="day">
+						<option value="monday">Monday</option>
+						<option value="tuesday">Tuesday</option>
+						<option value="wednesday">Wednesday</option>
+						<option value="thursday">Thursday</option>
+						<option value="friday">Friday</option>
+						<option value="saturday">Saturday</option>
+						<option value="sunday">Sunday</option>
+					</select>
+				</div>
+				
+				<div class="details">
+					<label for="mood">Today's mood: </label>
+					<select name="mood" id="mood">
+						<option value="happy">Happiness overload!</option>
+						<option value="okay">Pleasantly neutral.</option>
+						<option value="sad">Gentle state of sadness...</option>
+					</select>
+				</div>
+			</div>
+			
+			<div class="grid-child 2" id="journal">
+				<label for="content" id="contentname">Journal time!</label>
+				<br><br>
+				<textarea name="content" id="content"  rows="14" cols="40" placeholder="Unlock the magic of self-discovery through the power of journaling."></textarea>			
+				<br><input type="submit" id="post_btn" value="Post!" height=15px>
+			</div>
+    </form>
+    
+    <h1>Past journals</h1>
+    <div class='pastjournals'>
+	     {% for past in last3_lst %}
+		    <p id="title_">{{ past[1] }}</p>
+		    {% if past[5] == 'happy' %}
+			     <img class='mood_img' src="../static/images/happy.png" alt=''>
+		    {% elif past[5] == 'okay' %}
+			     <img class='mood_img' src="../static/images/okay.png" alt=''>
+		    {% elif past[5] == 'sad' %}
+			     <img class='mood_img' src="../static/images/sad.png" alt=''>
+		    {% endif %}
+		    <p id="dd">{{ past[2] }}, {{ past[3] }}</p>
+		    <p id="content_">{{ past[4] }}</p>
+	     {% endfor %}
+
+    </div>
+    
+    <div>
+      <input type="button" id="more_btn" value="Show more" height=25px>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <a href="#start"><img id="upp" src="../static/images/anchor.png"></a>
+	</body>
+</html>

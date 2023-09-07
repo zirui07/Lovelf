@@ -1,19 +1,34 @@
-<head>
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lovelf</title>
+		<link rel='stylesheet' href='./static/css/index.css'>
+  </head>
 
-<body>
-    <div class="App">
-        <header class="App-header">
-            <img src="{{ url_for('static', filename='Octocat.png') }}" class="App-logo" alt="logo" />
-            <p>
-                GitHub Codespaces <span class="heart">♥️</span> Flask
-            </p>
-            <p class="small">
-                Edit <code>templates/index.html</code> and refresh to see your changes!
-            </p>
-        </header>
-    </div>
-</body>
-
+	<body>
+		<div class='nav_bar'>
+			<a href='/' id="logo">Lovelf</a>
+			<a href='/'>Home</a>
+			<a href='/treehole/'>TreeHole</a>
+			<a href='/self-care practices/'>Self-care practices</a>
+			<a href='/helpline/'>Helpline</a>
+		</div>
+		
+		<div class='welcome'>
+      <img src='./static/images/home_bg2.png' alt=''>
+			<h1>Lovelf</h1>
+      
+		</div>
+		
+		<div class='content'>
+			<h2>Welcome to "lovelf"~</h2>
+			<p class='about'>Lovelf web app is dedicated to supporting individuals facing mental health challenges. There are tools and resources available in this web app to encourage them to take control of their mental well being.</p>
+      <table id='lst'>
+        <tr><td>1. TreeHole (Journaling)</td></tr>
+        <tr><td>2. Self-care practices</td></tr>
+        <tr><td>3. Helpline</td></tr>
+      </table>
+      <p class='about'>We hope to help individuals navigate through their mental health journey with confidence and resilience!</p>
+		</div>
+  </body>
 </html>

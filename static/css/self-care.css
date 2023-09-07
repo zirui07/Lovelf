@@ -1,0 +1,133 @@
+html{background-color: #EFFAF6;}
+
+.nav_bar{background-color: white;
+			padding: 20px;
+			}
+
+.nav_bar a{text-decoration: none;
+			color: #52796F;
+			margin-left: 20px;
+			margin-right: 20px;
+			}
+
+#logo {font-family: "Brush Script MT";
+      font-size: 30px;
+      padding-right: 550px}
+
+h1 {
+  color: #52796F;
+  font-size: 50px;
+  margin:50px;
+}
+
+.container {
+  position: relative;
+}
+
+#c1 {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  width: 450px;
+  height: 450px;
+}
+
+#c2 {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  width: 450px;
+  height: 450px;
+}
+
+.med_txt {
+  position: absolute;
+  top: 125px;
+  left: 190px;
+  color: #52796F;
+}
+
+.med_txt h1 {
+  margin-left:15px;
+  font-size: 40px;
+}
+
+.med_txt p {
+  width: 250px;
+}
+
+.yoga_txt{
+  position: absolute;
+  top: 125px;
+  right: 180px;
+  color: #52796F;
+}
+
+.yoga_txt h1 {
+  font-size: 40px;
+}
+
+.yoga_txt p {
+  width: 250px;
+}
+
+#med {color: #52796F;
+      margin-left: 45px;
+      text-align: center;
+      border-top: 2px solid #52796F;
+     }
+
+#med p {font-size: 20px;}
+
+
+table {width:80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 90px;
+      }
+
+td {
+  font-size: 25px;
+  color: #52796F;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+audio {
+  border: 2px solid #52796F;
+}
+
+table img {
+  width: 300px;
+  height: 200px;
+}
+
+#yoga_pg{
+  border-top: 2px solid #52796F;
+  color: #52796F;
+  text-align: center;
+}
+
+#yoga_pg p {font-size: 20px;}
+
+.videos{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.videos h2{
+  text-align: center;
+  color: #52796F;
+}
+
+.videos video{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
